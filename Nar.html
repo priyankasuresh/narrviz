@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<title>Narrative visualization</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<head>
+<style>
+img {
+    height : 490px;
+    padding-left : 200px;
+    margin-bottom: 150px;
+}
+
+div{
+	margin-bottom: 10px;
+}
+
+w3-bar-item{
+	margin-left: 5px;
+}
+
+div:w3-container {
+	margin-bottom: 10px;
+}
+
+</style>
+</head>
+<body>
+
+<h2 class="w3-center">Narrative on Orissa</h2>
+
+<div class="w3-bar w3-border w3-light-grey">
+  <div class="w3-bar-item">Dance</div>
+  <div class="w3-bar-item">Pattachitra</div>
+  <div class="w3-bar-item">Raghurajpur</div>
+  <div class="w3-bar-item">Wedding</div>
+  <div class="w3-bar-item">Create your own!</div>
+</div>
+
+<div class="w3-content w3-display-container">
+		<div class="w3-display-container mySlides">
+		<img src="Orissa/Dance/IMG_20170503_110600.jpg"><div class="w3-display-bottomleft w3-container w3-padding-16 w3-black caption">
+   A boy takes the sakhi bhaav and depicts story of Radha-Krishna relationship. Along with Abhinay (art) it is also pradarshan (display or performance).  Earlier it used to be called Sangeetha akaara but because he takes sakhibhaav rup, he got renamed to Gotipua. 
+There are four divisions in a traditional composition - mangalacharan, pallavi, abhinay and bhanda nrutya. 
+  </div></div>
+
+  		<div class="w3-display-container mySlides">
+		<img src="Orissa/Dance/IMG_20170503_110623.jpg"><div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
+    Mangalacharan has guru vandana - where they show respect to the teachers. This is because they believe that teacher is sarvashreshta - because without him you cannot have complete understanding of the world/life. 
+
+"Guru brahma, guru vishnu, guru devo maheshwara
+Guru sakshat para brahma, tasmay shri guruve namaha"
+  </div></div>
+  		<div class="w3-display-container mySlides">
+		<img src="Orissa/Dance/IMG_20170503_110646.jpg"><div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
+   In Sanskrit, a young tender leaf which is coming out is called pallav. So from an entire stream of rag, you are taking a small sprout of it and making a composition, like a one liner composition. Thereby, an entire dance composition happens with one line. 
+
+Abhinay which is art in the story of Mahishasa Mardini story - where devi ma rose out of the fire, and protected her bhaktas from the devious asura Mahishasa.
+  </div></div>
+  		<div class="w3-display-container mySlides">
+		<img src="Orissa/Dance/IMG_20170503_112256.jpg"><div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
+    Bhanda nrutya - is a physical yoga form depicting the relationship between Radha and Krishna. Making figures like pyramids and other formations to physically manifest the iconography painted.
+  </div></div>
+		<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+		<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,125 @@
+{
+  "characters": [
+      {
+        "id": "CL1",
+        "name": "Chitralekha",
+        "affiliation": "other"
+      },
+      {
+        "id": "US1",
+        "name": "Usha",
+        "affiliation": "dark"
+      },
+      {
+        "id": "AN1",
+        "name": "Aniruddha",
+        "affiliation": "light"
+      },
+      {
+        "id": "BA1",
+        "name": "Banasura",
+        "affiliation": "dark"
+      },
+      {
+        "id": "KR1",
+        "name": "Krishna",
+        "affiliation": "light"
+      },
+      {
+        "id": "SH1",
+        "name": "Shiva",
+        "affiliation": "dark"
+      },
+      {
+        "id": "PA1",
+        "name": "Parvati",
+        "affiliation": "dark"
+      },
+      {
+        "id": "BR1",
+        "name": "Brahma",
+        "affiliation": "other"
+      },
+      {
+        "id": "KA1",
+        "name": "Krishna's Army",
+        "affiliation": "light"
+      },
+      {
+        "id": "BA2",
+        "name": "Banasura's Army",
+        "affiliation": "dark"
+      },
+      {
+        "id": "VI1",
+        "name": "Vishnu",
+        "affiliation": "other"
+      }
+    ],
+
+  "scenes": [ 
+    [
+      "BA1",
+      "SH1"
+    ],
+    [
+      "BA1",
+      "US1"
+    ],
+    [
+      "US1",
+      "CL1"
+    ],
+    [
+      "US1",
+      "CL1",
+      "AN1"
+
+    ],
+    [
+      "US1",
+      "AN1"
+    ],
+    [
+      "US1",
+      "AN1",
+      "BA2"
+    ],
+    [
+      "US1",
+      "AN1",
+      "BA1",
+      "BA2"
+    ],
+    [
+      "KR1",
+      "BA1"
+    ],
+    [
+      "KR1",
+      "BA1",
+      "BA2",
+      "KA1",
+      "SH1"
+    ],
+    [
+      "KR1",
+      "BA1",
+      "KA1",
+      "BA2",
+      "SH1",
+      "BR1"
+    ],
+    [
+      "KR1",
+      "SH1",
+      "BA1"
+    ],
+    [
+      "KR1",
+      "BA1",
+      "AN1",
+      "US1"
+    ]
+]
+}

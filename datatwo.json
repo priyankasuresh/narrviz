@@ -1,0 +1,127 @@
+{
+  "characters": [
+      {
+        "id": "RA1",
+        "name": "Ram",
+        "affiliation": "light"
+      },
+      {
+        "id": "DS1",
+        "name": "Dashrath",
+        "affiliation": "other"
+      },
+      {
+        "id": "LK1",
+        "name": "Lakshmana",
+        "affiliation": "light"
+      },
+      {
+        "id": "KU1",
+        "name": "Kausalya",
+        "affiliation": "other"
+      },
+      {
+        "id": "KA1",
+        "name": "Kaikeyi",
+        "affiliation": "dark"
+      },
+      {
+        "id": "SM1",
+        "name": "Sumitra",
+        "affiliation": "other"
+      },
+      {
+        "id": "HN1",
+        "name": "Hanuman",
+        "affiliation": "light"
+      },
+      {
+        "id": "ST1",
+        "name": "Sita",
+        "affiliation": "light"
+      },
+      {
+        "id": "RV1",
+        "name": "Ravan",
+        "affiliation": "dark"
+      },
+      {
+        "id": "BH2",
+        "name": "Bharat",
+        "affiliation": "other"
+      },
+      {
+        "id": "SP1",
+        "name": "Surpanaka",
+        "affiliation": "dark"
+      }
+    ],
+
+  "scenes": [ 
+    [
+      "DS1",
+      "KU1",
+      "KA1",
+      "SM1"
+    ],
+    [
+      "DS1",
+      "KU1",
+      "KA1",
+      "SM1",
+      "RA1",
+      "LK1",
+      "BH2"
+    ],
+    [
+      "DS1",
+      "KU1",
+      "RA1",
+      "ST1"
+    ],
+    [
+      "DS1",
+      "KA1"
+
+    ],
+    [
+      "DS1",
+      "RA1",
+      "ST1",
+      "LK1"
+    ],
+    [
+      "SR1",
+      "RA1",
+      "LK1"
+    ],
+    [
+      "ST1",
+      "LK1"
+    ],
+    [
+      "RV1",
+      "ST1"
+    ],
+    [
+      "HN1",
+      "RA1",
+      "LK1"
+    ],
+    [
+      "HN1",
+      "ST1"
+    ],
+    [
+      "RV1",
+      "HN1",
+      "RA1",
+      "LK1"
+    ],
+    [
+      "RA1",
+      "LK1",
+      "ST1"
+    ]
+]
+}
