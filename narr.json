@@ -1,0 +1,129 @@
+{
+  "characters": [
+      {
+        "id": "Chitralekha",
+        "name": "Chitralekha",
+        "affiliation": "other"
+      },
+      {
+        "id": "Usha",
+        "name": "Usha",
+        "affiliation": "dark"
+      },
+      {
+        "id": "Aniruddha",
+        "name": "Aniruddha",
+        "affiliation": "light"
+      },
+      {
+        "id": "Krishna",
+        "name": "Krishna",
+        "affiliation": "light"
+      },
+      {
+        "id": "Shiva",
+        "name": "Shiva",
+        "affiliation": "dark"
+      },
+      {
+        "id": "Brahma",
+        "name": "Brahma",
+        "affiliation": "other"
+      },
+      {
+        "id": "Banasura",
+        "name": "Banasura",
+        "affiliation": "dark"
+      },
+      {
+        "id": "Parvati",
+        "name": "Parvati",
+        "affiliation": "light"
+      },
+      {
+        "id": "BanasuraArmy",
+        "name": "Banasura's Army",
+        "affiliation": "dark"
+      },
+    ],
+  "scenes": [
+    [
+      "Banasura",
+      "Shiva",
+      "Parvati"
+    ],
+    [
+      "Banasura",
+      "Usha"
+    ],
+    [
+      "Usha",
+      "Chitralekha"
+    ],
+    [
+      "Usha",
+      "Chitralekha",
+      "Aniruddha"
+    ],
+    [
+      "Usha",
+      "Aniruddha"
+    ],
+    [
+      "BanasuraArmy",
+      "Usha",
+      "Aniruddha"
+    ],
+    [
+      "BanasuraArmy",
+      "Banasura"
+    ],
+    [
+      "Banasura",
+      "Usha",
+      "Aniruddha"
+    ],
+    [
+      "Banasura",
+      "Krishna"
+    ],
+    [
+      "Banasura",
+      "Shiva",
+      "BanasuraArmy"
+    ],
+    [
+      "BanasuraArmy",
+      "Banasura",
+      "Shiva",
+      "Krishna",
+      "Parvati"
+    ],
+    [
+      "Banasura",
+      "BanasuraArmy",
+      "Shiva",
+      "Krishna",
+      "Parvati",
+      "Brahma"
+    ],
+    [
+      "Shiva",
+      "Brahma",
+      "Krishna"
+    ],
+    [
+      "Shiva",
+      "Banasura",
+      "Krishna",
+      "Brahma"
+    ],
+    [
+      "Krishna",
+      "Shiva",
+      "Banasura",
+      "Usha",
+      "Aniruddha"
+    ]
+  ]
+}
